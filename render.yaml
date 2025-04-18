@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: t1ts-bet
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
